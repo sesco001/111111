@@ -17,7 +17,7 @@ function getDescriptionFromEnv(varName) {
 // Anti-call function setup
 ezra({
   nomCom: 'anticall',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKAMESCO-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -59,7 +59,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreact',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKAMESCO-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -100,7 +100,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreadstatus',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKAMESCO-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -140,7 +140,7 @@ ezra({
 });
 ezra({
   nomCom: 'antidelete',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKAMESCO-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -181,7 +181,7 @@ ezra({
 
 ezra({
   nomCom: 'autodownloadstatus',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKAMESCO-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -222,7 +222,7 @@ ezra({
 
 ezra({
   nomCom: 'startingmessage',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKAMESCO-settings"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -670,7 +670,7 @@ ezra({
 });
 ezra({
   nomCom: 'autoreactstatus',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKAMESCO-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -710,7 +710,7 @@ ezra({
 });
 ezra({
   nomCom: 'audioreply',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKAMESCO-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -751,7 +751,7 @@ ezra({
 
 ezra({
   nomCom: 'setting',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKAMESCO-SETTING"
 }, async (chatId, messagingService, context) => {
   const { ms, repondre, superUser, auteurMessage } = context;
   
